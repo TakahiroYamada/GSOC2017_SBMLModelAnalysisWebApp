@@ -79,12 +79,6 @@
   		<artifactId>MorphoLibJ_</artifactId>
   	</dependency>
   	<dependency>
-  		<groupId>SimulationCoreLibrary_v1.5_slim.jar</groupId>
-  		<artifactId>SimulationCoreLibrary_v1.5_slim.jar</artifactId>
-  		<systemPath>${basedir}/lib/SimulationCore/dist/SimulationCoreLibrary-1.5/SimulationCoreLibrary_v1.5_slim.jar</systemPath>
-  		<scope>system</scope>
-  	</dependency>
-  	<dependency>
   		<groupId>org.apache.commons</groupId>
   		<artifactId>commons-math</artifactId>
   	</dependency>
@@ -118,6 +112,12 @@
   	<dependency>
   		<groupId>com.fasterxml.jackson.core</groupId>
   		<artifactId>jackson-databind</artifactId>
+  	</dependency>
+  	<dependency>
+  		<groupId>sbscl-1.5.jar</groupId>
+  		<artifactId>sbscl-1.5.jar</artifactId>
+  		<scope>system</scope>
+  		<systemPath>${basedir}//lib/SBSCL/target/sbscl-1.5.jar</systemPath>
   	</dependency>
   </dependencies>
   <dependencyManagement>
@@ -158,13 +158,6 @@
   			<version>2.5</version>
   		</dependency>
   		<dependency>
-  			<groupId>SimulationCoreLibrary_v1.5_slim.jar</groupId>
-  			<artifactId>
-  				SimulationCoreLibrary_v1.5_slim.jar
-  			</artifactId>
-  			<version>1.0</version>
-  		</dependency>
-  		<dependency>
   			<groupId>org.apache.commons</groupId>
   			<artifactId>commons-math</artifactId>
   			<version>2.2</version>
@@ -203,6 +196,11 @@
   			<groupId>com.fasterxml.jackson.core</groupId>
   			<artifactId>jackson-databind</artifactId>
   			<version>2.9.3</version>
+  		</dependency>
+  		<dependency>
+  			<groupId>sbscl-1.5.jar</groupId>
+  			<artifactId>sbscl-1.5.jar</artifactId>
+  			<version>1.5</version>
   		</dependency>
   	</dependencies>
   </dependencyManagement>
