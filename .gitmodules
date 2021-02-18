@@ -1,6 +1,3 @@
-[submodule "lib/libSBMLsim"]
-	path = lib/libSBMLsim
-	url = https://github.com/libsbmlsim/libsbmlsim.git
 [submodule "WebContent/ScrollTrigger"]
 	path = WebContent/ScrollTrigger
 	url = https://github.com/terwanerik/ScrollTrigger.git
@@ -10,3 +7,6 @@
 [submodule "lib/SBSCL"]
 	path = lib/SBSCL
 	url = git@github.com:draeger-lab/SBSCL.git
+[submodule "lib/libsbmlsim"]
+	path = lib/libsbmlsim
+	url = git@github.com:libsbmlsim/libsbmlsim.git
